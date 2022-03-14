@@ -10,7 +10,7 @@ if (targetImage.classList.contains("small"))
   targetImage.classList.add("small");
 }
 });
-   let targetImage = document.querySelector("#smart-image2");
+   let targetImage2 = document.querySelector("#smart-image2");
 targetImage.addEventListener("click", function() {
 if (targetImage.classList.contains("small")) 
 {
