@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-  let targetImage = document.querySelector("#smart-image1");
+  let targetImage = document.querySelector("#smart-image");
   let targetImage = document.querySelector("#smart-image2");
   let targetImage = document.querySelector("#smart-image3");
   let targetImage = document.querySelector("#smart-image4");
