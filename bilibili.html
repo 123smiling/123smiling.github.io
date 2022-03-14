@@ -1,38 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>video</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音频</title>
+    <style>
+       *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        header{
+            width: 100%;
+            height: 400px;
+            margin: 0 auto;
+            overflow:hidden;
+            position: relative;
+        }
+        .logo{
+            width: 150px;
+            height: 60px;
+            position:absolute;
+            top:0;
+            left:0;
+        }
+        .menu{
+            width: 100%;
+            height: 60px;
+            background-color:rgb(22, 210, 224);
+            position: absolute;
+            top: 60px;
+            left: 0;
+        }
+        .menu>ul{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .menu ul>li{
+            float: left;
+            width: 200px;
+            list-style: none;
+            line-height: 60px;
+            text-align: center;
+        }
+        .menu a{
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+        }
+       .menu a:hover{
+            color:purple;
+        }
+        article{
+          margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+        .video,.headline{
+            margin:30px 400px;
+            color: brown;
+        }
+    </style>
 </head>
 <body>
-   <header>
-        <a href="">
-            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.xxthemes.com%2Farticle%2FUploadPic%2F2011-1%2F2011128225027946.jpg&refer=http%3A%2F%2Fwww.xxthemes.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649677531&t=45a2ee238f67793c7d1d12bfc653bc3b" alt="" width="100px" height="50px">
-        </a><
-        <h1>
-            海贼王
-        </h1>
-        <p>我是路飞，是要成为海贼王的男人</p>
-    </header>
-    <main>
-        <aside>
-            <div class="title">
-                <ul>
-                    <li><a href="https://123smiling.github.io/">首页</a></li>
-                    <li><a href="">故事</a></li>
-                    <li><a href="">人物</a></li>
-                    <li><a href="https://123smiling.github.io/bilibili.html">视频</a></li>
-                    <li><a href="">留言</a></li>
-                </ul>
-            </div>
-        </aside>https://123smiling.github.io/bilibili.html
-        <article>
-            <h1>海贼王/极致踩点/燃爆</h1>
-            <iframe src="//player.bilibili.com/player.html?aid=66914175&bvid=BV1D4411k7UE&cid=116937125&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">燃爆</iframe>
-        </article>
-    </main>
-    <footer>
-        by <a href="https://www.zhihu.com/people/bai-ri-meng-xing-70-23" target="_blank">panda</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
-    </footer>
+    <header>
+        <div class="bakeground">
+            <img src="https://picnew9.photophoto.cn/20141218/lantiandahaitupian-10869066_1.jpg" alt="蓝天白云"  width="100%" height="420px">
+        </div>
+         <div class="logo">
+             <img  src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.xxthemes.com%2Farticle%2FUploadPic%2F2011-1%2F2011128225027946.jpg&refer=http%3A%2F%2Fwww.xxthemes.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649677531&t=45a2ee238f67793c7d1d12bfc653bc3b" alt="logo" height="60px" width="150px">
+         </div>
+         <div class="menu">
+             <ul>
+                 <li><a href="https://123smiling.github.io/">首页</a></li>
+                 <li><a href="https://123smiling.github.io/story.html">故事</a></li>
+                 <li><a href="https://123smiling.github.io/character.html">人物</a></li>
+                 <li><a href="https://123smiling.github.io/bilibili.html">音频</a></li>
+                 <li><a href="https://123smiling.github.io/picture.html">图集</a></li>
+             </ul>
+         </div>
+        </header>
+        <main>
+            <article>
+                <h1>海贼王精彩视频剪辑</h1><hr>                                  
+                <div class="headline">
+                    <marquee behavior="scrolling" direction="left" width="300px">"我是路飞，是要成为海贼王的男人”！！！</marquee>
+                 </div>  
+                 <div class="video">
+                    <iframe src="//player.bilibili.com/player.html?aid=66914175&bvid=BV1D4411k7UE&cid=116937125&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                </div>               
+                <div class="headline"> 
+                    <marquee behavior="scrolling" direction="left" width="300px">目标是世界最强，致那过去的誓言！！！</marquee>
+                </div>                  
+                <div class="video">
+                    <iframe src="//player.bilibili.com/player.html?aid=90226558&bvid=BV1t7411A7Do&cid=154080701&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                </div>
+            </article>
+        </main>
+        <footer>
+            by <a href="https://www.zhihu.com/people/bai-ri-meng-xing-70-23" target="_blank">panda</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
+           </footer>
 </body>
 </html>
